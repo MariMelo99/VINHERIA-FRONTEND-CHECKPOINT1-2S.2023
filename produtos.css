@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex; 
+    margin: auto;
+}
+
+.tabela{
+    width: 100%; text-align: center;
+}
+.tabela thead{
+        background: #800020; 
+        color:white;
+}
+.tabela tbody tr:nth-child(2n){
+        background: #c4c3c3;
+}
+.tabela th, .tabela td{
+        padding: 10px;
+}
+.titulo {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 40px;
+}
+.menu ul li {
+    display: flex;
+    justify-content: center;
+    
+}
+.menu_lista_link_links {
+    font-size: 25px;
+    font-weight: bold; 
+    text-decoration: none; 
+    font-family: "Arial, Helvetica, sans-serif", Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+    
+}
+.menu_lista_link_links:hover {
+    background-color: #007bff;
+}
+.cabecalho {
+    background-color: #800020;
+    color: #f0f0f0;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(238, 241, 245);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    
+}
+.link {
+        text-align: center;
+        text-decoration: none;
+}
+.link:hover {
+    background-color: #007bff;
+}

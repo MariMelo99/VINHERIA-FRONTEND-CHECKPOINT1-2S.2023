@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #c4c3c3;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  text-align: center;
+  font-family: 'Roboto Flex', sans-serif;
+  margin-top: 40px;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 90px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.paragrafo {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.email_vinicola {
+  text-align: center;
+}
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+.link {
+  text-align: center;
+  text-decoration: none;
+}
+.menu ul li {
+  display: flex;
+  justify-content: center;
+  
+}
+.menu_lista_link_links {
+  font-size: 25px;
+  font-weight: bold; 
+  text-decoration: none; 
+  font-family: "Arial, Helvetica, sans-serif", Arial, Helvetica, sans-serif;
+  color: #f0f0f0;
+  
+}
+.menu_lista_link_links:hover {
+  background-color: #007bff;
+}
+.cabecalho {
+  background-color: #800020;
+  color: #f0f0f0;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5vw;
+  padding: 3vw;
+  background-color: #c4c3c3;
+ 
+ 
+}
+.boxOne {
+  padding-right: 2vw;
+
+}
+.footer {
+  background-color: rgb(238, 241, 245);
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding: 6px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  
+  }
+  .container_loja {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    background-color: #c4c3c3;
+  }
+  .container_loja_Two {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 241, 245);
+    width: 100%;
+  }
+  .container_loja_Three {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    margin-bottom: 3vw;
+    background-color: #c4c3c3;
+  }
+  .cointainer_endereco {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    background-color: #c4c3c3;
+  }
+  .container_contato {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    background-color: #c4c3c3;
+  }
+  #img_instagram:hover {
+    background-color: #007bff;
+  }
+  #img_twitter:hover {
+    background-color: #007bff;
+  }
+  .link:hover {
+    background-color: #007bff;
+
+  }
+  .footer_cadastro {
+    background-color: rgb(238, 241, 245);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px;
+    bottom: 0;
+    width: 100%;
+ 
+  }
